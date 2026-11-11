@@ -1,0 +1,31 @@
+# Direct dependencies of the notebook, functions_for_pipeline.py and simulate_agent.py.
+# Tested together on Python 3.11 in a fresh virtual environment (2026-10-31).
+
+# LangChain 1.x and LangGraph 1.x
+langchain-core==1.7.3
+langchain-classic==1.0.8          # load_summarize_chain
+langchain-community==0.4.1        # FAISS, PyPDFLoader. 0.4.2 removed a module that ragas 0.4.3 still imports
+langchain-openai==1.7.3
+langchain-groq==1.1.3
+langchain-text-splitters==1.1.3
+langgraph==1.2.19
+
+# Retrieval and PDF processing
+faiss-cpu==1.15.1
+tiktoken==0.14.0
+pypdf==6.21.4
+PyPDF2==3.0.1
+pylcs==0.1.1
+pandas==3.1.0
+dill==0.4.1
+python-dotenv==1.2.4
+
+# Evaluation
+ragas==0.4.3
+datasets==5.1.0
+
+# Notebook and the Streamlit visualization
+ipykernel==7.4.0
+ipython==9.18.0
+streamlit==1.66.1
+pyvis==0.3.2

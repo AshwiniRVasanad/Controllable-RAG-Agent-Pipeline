@@ -53,5 +53,5 @@ Access the application at `http://localhost:8501`.
 
 ---
 
-## 📄 License & Attribution
-Licensed under the **Apache-2.0 License**. Inspired by [Nir Diamant's Controllable-RAG-Agent](https://github.com).
+## 📄 License
+Licensed under the **Apache-2.0 License**.
